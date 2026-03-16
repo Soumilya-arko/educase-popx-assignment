@@ -1,18 +1,49 @@
-# React + Vite
+PopX App - ReactJS Qualifier Task
+A pixel-perfect, mobile-centered React application built as a qualifier task for the Educase ReactJS Internship.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The application strictly adheres to the provided Adobe XD design constraints, featuring seamless routing, custom interactive UI elements, and a clean component architecture.
 
-Currently, two official plugins are available:
+🚀 Live Demo
+[Insert your Vercel Hosted Link Here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Key Features
+Pixel-Perfect UI: Accurately translates the Adobe XD design into code, maintaining precise spacing, typography, and the distinct PopX color palette.
 
-## React Compiler
+Mobile-First Wrapper: Enforces a strict 375x812px mobile application view centered dynamically within the desktop browser window.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Seamless Routing: Utilizes react-router-dom for instant, page-reload-free navigation between the Landing, Login, Signup, and Profile screens.
 
-Note: This will impact Vite dev & build performances.
+Dynamic State Management: Captures user input on the Login/Signup screens and passes the data via router state to dynamically populate the Profile screen.
 
-## Expanding the ESLint configuration
+Custom UI Components: * Reusable InputField components utilizing native <fieldset> tags for accessible, floating-label borders.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Custom-built radio buttons for the "Agency" selection that natively match the design without relying on external component libraries.
+
+🛠️ Tech Stack
+Frontend Framework: React.js
+
+Build Tool: Vite (v7)
+
+Styling: Tailwind CSS (v4)
+
+Routing: React Router DOM
+
+Deployment: Vercel
+
+💻 Local Development Setup
+To run this project locally, ensure you have Node.js installed, then clone the repository and run the following commands:
+
+Bash
+# Clone the repository
+git clone [Insert your GitHub Repo Link Here]
+
+# Navigate into the project directory
+cd popx-app
+
+# Install dependencies (legacy-peer-deps required for Vite 7 / Tailwind v4 compatibility)
+npm install --legacy-peer-deps
+
+# Start the local Vite development server
+npm run dev
+👨‍💻 Author
+Soumilya Roy
