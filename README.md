@@ -36,7 +36,7 @@ To run this project locally, clone the repository and follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [Insert your GitHub Repo Link here]
+   git clone https://github.com/Soumilya-arko/educase-popx-assignment
    
 2. **Navigate to project directory:**
    ```bash
