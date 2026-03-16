@@ -1,49 +1,56 @@
-PopX App - ReactJS Qualifier Task
-A pixel-perfect, mobile-centered React application built as a qualifier task for the Educase ReactJS Internship.
+# PopX App
+
+A pixel-perfect, mobile-centered React application. 
 
 The application strictly adheres to the provided Adobe XD design constraints, featuring seamless routing, custom interactive UI elements, and a clean component architecture.
 
-🚀 Live Demo
-[Insert your Vercel Hosted Link Here]
+---
 
-✨ Key Features
-Pixel-Perfect UI: Accurately translates the Adobe XD design into code, maintaining precise spacing, typography, and the distinct PopX color palette.
+### 🚀 Live Demo
+**https://popx-app-ecru.vercel.app** 
 
-Mobile-First Wrapper: Enforces a strict 375x812px mobile application view centered dynamically within the desktop browser window.
+---
 
-Seamless Routing: Utilizes react-router-dom for instant, page-reload-free navigation between the Landing, Login, Signup, and Profile screens.
+### ✨ Key Features
+* **Pixel-Perfect UI:** The mobile interface is precisely centered on the webpage as per project requirements.
+* **Seamless Navigation:** Utilizes `react-router-dom` for efficient transitions between pages.
+* **Dynamic Profile State:** Passes user data from Login/Signup screens to the Profile screen using React state.
+* **Custom UI Components:** * Modular `InputField` components with floating labels using `<fieldset>`.
+    * Custom-styled radio buttons for the "Agency" selection.
+* **Neat & Clean Code:** The project follows professional formatting and clean code principles.
 
-Dynamic State Management: Captures user input on the Login/Signup screens and passes the data via router state to dynamically populate the Profile screen.
+---
 
-Custom UI Components: * Reusable InputField components utilizing native <fieldset> tags for accessible, floating-label borders.
+### 🛠️ Tech Stack
+* **Frontend:** React.js 
+* **Build Tool:** Vite (v7)
+* **Styling:** Tailwind CSS (v4)
+* **Routing:** React Router DOM
+* **Hosting:** Vercel 
 
-Custom-built radio buttons for the "Agency" selection that natively match the design without relying on external component libraries.
+---
 
-🛠️ Tech Stack
-Frontend Framework: React.js
+### 💻 Local Development Setup
 
-Build Tool: Vite (v7)
+To run this project locally, clone the repository and follow these steps:
 
-Styling: Tailwind CSS (v4)
+1. **Clone the repository:**
+   ```bash
+   git clone [Insert your GitHub Repo Link here]
+   
+2. **Navigate to project directory:**
+   ```bash
+   cd popx-app
 
-Routing: React Router DOM
+3. **Install dependencies:** Note: Since this project uses the latest Vite/Tailwind versions, use the legacy flag if you encounter peer dependency conflicts.
+   ```Bash
+   npm install --legacy-peer-deps
 
-Deployment: Vercel
+4. **Start the development server:**
+   ```Bash
+   npm run dev
 
-💻 Local Development Setup
-To run this project locally, ensure you have Node.js installed, then clone the repository and run the following commands:
+---
 
-Bash
-# Clone the repository
-git clone [Insert your GitHub Repo Link Here]
-
-# Navigate into the project directory
-cd popx-app
-
-# Install dependencies (legacy-peer-deps required for Vite 7 / Tailwind v4 compatibility)
-npm install --legacy-peer-deps
-
-# Start the local Vite development server
-npm run dev
-👨‍💻 Author
-Soumilya Roy
+### Author
+Soumilya Roy 3rd Year B.Tech (Electronics and Computer Science)
