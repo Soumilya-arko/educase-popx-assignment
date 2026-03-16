@@ -53,4 +53,5 @@ To run this project locally, clone the repository and follow these steps:
 ---
 
 ### Author
-Soumilya Roy 3rd Year B.Tech (Electronics and Computer Science)
+Soumilya Roy
+GitHub: @soumilya-arko
