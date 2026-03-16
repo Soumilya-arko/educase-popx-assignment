@@ -54,4 +54,4 @@ To run this project locally, clone the repository and follow these steps:
 
 ### Author
 * Soumilya Roy
-* GitHub: @Soumilya-arko
+* GitHub: Soumilya-arko
